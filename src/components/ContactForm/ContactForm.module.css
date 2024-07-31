@@ -1,0 +1,49 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 2px solid #5b42f3;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.fieldTitle {
+  font-weight: 600;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.formField {
+  font-size: 16px;
+  padding: 10px;
+  width: 350px;
+  outline: none;
+  background-color: transparent;
+  border: 2px solid #5b42f3;
+  border-radius: 5px;
+  color: #242424;
+}
+
+.errorMessage {
+  color: red;
+  font-weight: 500;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.addBtn {
+  width: 150px;
+  align-items: center;
+  background: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #ffffff;
+  font-size: 20px;
+  justify-content: center;
+  padding: 10px;
+  cursor: pointer;
+  margin: 0 auto;
+  margin-top: 30px;
+}
